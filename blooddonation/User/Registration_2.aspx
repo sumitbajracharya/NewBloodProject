@@ -24,17 +24,12 @@
                 <td>Gender</td>
                 <td>
                     <asp:RadioButtonList ID="rdbGender" runat="server" RepeatDirection="Horizontal">
-                        <asp:ListItem Selected="True">Male</asp:ListItem>
+                        <asp:ListItem>Male</asp:ListItem>
                         <asp:ListItem>Female</asp:ListItem>
                     </asp:RadioButtonList>
                 </td>
             </tr>
-            <tr>
-                <td>Permanent Address</td>
-                <td>
-                    <asp:TextBox ID="txtPermanentAddress" cssClass="form-control" runat="server"></asp:TextBox>
-                </td>
-            </tr>
+           
             <tr>
                 <td>Current Address</td>
                 <td>
@@ -42,15 +37,7 @@
                     </asp:DropDownList>
                 </td>
             </tr>
-            <tr>
-                <td>Last Donation Date</td>
-                <td>
-                    <asp:TextBox ID="txtLastDonatedDay" hight="34px" width="20%" txt="Day" runat="server"></asp:TextBox>
-                    <asp:TextBox ID="txtLastDonatedMonth" hight="34px" width="20%" txt="Month"  runat="server"></asp:TextBox>
-                    <asp:TextBox ID="txtLastDonatedYear" hight="34px" width="40%" txt="Year"  runat="server"></asp:TextBox>
-                                
-                </td>
-            </tr>
+            
             <tr>
                 <td>Best Time To Contact</td>
                 <td>
@@ -63,12 +50,7 @@
                     </asp:DropDownList>
                 </td>
             </tr>
-            <tr>
-                <td>Blood Group Card</td>
-                <td>
-                    <asp:FileUpload ID="fuBloodGroupCard" cssClass="form-control" runat="server" />
-                </td>
-            </tr>
+            
             <tr>
                 <td>Phone Number</td>
                 <td>

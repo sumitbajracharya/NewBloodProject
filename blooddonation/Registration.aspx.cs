@@ -51,8 +51,7 @@ public partial class Registration : System.Web.UI.Page
     protected void CreateMembers()
     {
         MemberInfo _member = new MemberInfo();
-        _member.FirstName = TxtFirstName.Text;
-        _member.LastName = TxtLastName.Text;
+        _member.FullName = TxtFirstName.Text;
         _member.MobileNo = Txtmobile.Text;
         _member.Email = TxtEmail.Text;
         _member.BloodGroupId = Ddlbloodgroup.SelectedIndex;
